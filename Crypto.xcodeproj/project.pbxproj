@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF26544524FDF716005D5997 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26544424FDF716005D5997 /* AppDelegate.m */; };
+		BF26544824FDF716005D5997 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26544724FDF716005D5997 /* SceneDelegate.m */; };
+		BF26544B24FDF716005D5997 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26544A24FDF716005D5997 /* ViewController.m */; };
+		BF26544E24FDF716005D5997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26544C24FDF716005D5997 /* Main.storyboard */; };
+		BF26545024FDF719005D5997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF26544F24FDF719005D5997 /* Assets.xcassets */; };
+		BF26545324FDF719005D5997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26545124FDF719005D5997 /* LaunchScreen.storyboard */; };
+		BF26545624FDF719005D5997 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26545524FDF719005D5997 /* main.m */; };
+		BF26546124FDF754005D5997 /* ADSuyiKitCryptoRSA.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26545E24FDF754005D5997 /* ADSuyiKitCryptoRSA.m */; };
+		BF26546224FDF754005D5997 /* ADSuyiKitCryptoAES.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26545F24FDF754005D5997 /* ADSuyiKitCryptoAES.m */; };
+		BF26546524FDF79B005D5997 /* NSData+ADSuyiKit.m in Sources */ = {isa = PBXBuildFile; fileRef = BF26546324FDF79B005D5997 /* NSData+ADSuyiKit.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF26544024FDF716005D5997 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26544324FDF716005D5997 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF26544424FDF716005D5997 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF26544624FDF716005D5997 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		BF26544724FDF716005D5997 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		BF26544924FDF716005D5997 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF26544A24FDF716005D5997 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF26544D24FDF716005D5997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF26544F24FDF719005D5997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF26545224FDF719005D5997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF26545424FDF719005D5997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26545524FDF719005D5997 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF26545D24FDF754005D5997 /* ADSuyiKitCryptoAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSuyiKitCryptoAES.h; sourceTree = "<group>"; };
+		BF26545E24FDF754005D5997 /* ADSuyiKitCryptoRSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSuyiKitCryptoRSA.m; sourceTree = "<group>"; };
+		BF26545F24FDF754005D5997 /* ADSuyiKitCryptoAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSuyiKitCryptoAES.m; sourceTree = "<group>"; };
+		BF26546024FDF754005D5997 /* ADSuyiKitCryptoRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSuyiKitCryptoRSA.h; sourceTree = "<group>"; };
+		BF26546324FDF79B005D5997 /* NSData+ADSuyiKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ADSuyiKit.m"; sourceTree = "<group>"; };
+		BF26546424FDF79B005D5997 /* NSData+ADSuyiKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ADSuyiKit.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF26543D24FDF716005D5997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF26543724FDF716005D5997 = {
+			isa = PBXGroup;
+			children = (
+				BF26544224FDF716005D5997 /* Crypto */,
+				BF26544124FDF716005D5997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF26544124FDF716005D5997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF26544024FDF716005D5997 /* Crypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF26544224FDF716005D5997 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				BF26545C24FDF72D005D5997 /* crypto */,
+				BF26544324FDF716005D5997 /* AppDelegate.h */,
+				BF26544424FDF716005D5997 /* AppDelegate.m */,
+				BF26544624FDF716005D5997 /* SceneDelegate.h */,
+				BF26544724FDF716005D5997 /* SceneDelegate.m */,
+				BF26544924FDF716005D5997 /* ViewController.h */,
+				BF26544A24FDF716005D5997 /* ViewController.m */,
+				BF26544C24FDF716005D5997 /* Main.storyboard */,
+				BF26544F24FDF719005D5997 /* Assets.xcassets */,
+				BF26545124FDF719005D5997 /* LaunchScreen.storyboard */,
+				BF26545424FDF719005D5997 /* Info.plist */,
+				BF26545524FDF719005D5997 /* main.m */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		BF26545C24FDF72D005D5997 /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				BF26546424FDF79B005D5997 /* NSData+ADSuyiKit.h */,
+				BF26546324FDF79B005D5997 /* NSData+ADSuyiKit.m */,
+				BF26545D24FDF754005D5997 /* ADSuyiKitCryptoAES.h */,
+				BF26545F24FDF754005D5997 /* ADSuyiKitCryptoAES.m */,
+				BF26546024FDF754005D5997 /* ADSuyiKitCryptoRSA.h */,
+				BF26545E24FDF754005D5997 /* ADSuyiKitCryptoRSA.m */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF26543F24FDF716005D5997 /* Crypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26545924FDF719005D5997 /* Build configuration list for PBXNativeTarget "Crypto" */;
+			buildPhases = (
+				BF26543C24FDF716005D5997 /* Sources */,
+				BF26543D24FDF716005D5997 /* Frameworks */,
+				BF26543E24FDF716005D5997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crypto;
+			productName = Crypto;
+			productReference = BF26544024FDF716005D5997 /* Crypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF26543824FDF716005D5997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "陈坤";
+				TargetAttributes = {
+					BF26543F24FDF716005D5997 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = BF26543B24FDF716005D5997 /* Build configuration list for PBXProject "Crypto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF26543724FDF716005D5997;
+			productRefGroup = BF26544124FDF716005D5997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF26543F24FDF716005D5997 /* Crypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF26543E24FDF716005D5997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26545324FDF719005D5997 /* LaunchScreen.storyboard in Resources */,
+				BF26545024FDF719005D5997 /* Assets.xcassets in Resources */,
+				BF26544E24FDF716005D5997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF26543C24FDF716005D5997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26546224FDF754005D5997 /* ADSuyiKitCryptoAES.m in Sources */,
+				BF26544B24FDF716005D5997 /* ViewController.m in Sources */,
+				BF26546124FDF754005D5997 /* ADSuyiKitCryptoRSA.m in Sources */,
+				BF26544524FDF716005D5997 /* AppDelegate.m in Sources */,
+				BF26546524FDF79B005D5997 /* NSData+ADSuyiKit.m in Sources */,
+				BF26545624FDF719005D5997 /* main.m in Sources */,
+				BF26544824FDF716005D5997 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF26544C24FDF716005D5997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26544D24FDF716005D5997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF26545124FDF719005D5997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26545224FDF719005D5997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF26545724FDF719005D5997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF26545824FDF719005D5997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF26545A24FDF719005D5997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8FBV7Y443;
+				INFOPLIST_FILE = Crypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sangshen.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF26545B24FDF719005D5997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8FBV7Y443;
+				INFOPLIST_FILE = Crypto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sangshen.Crypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF26543B24FDF716005D5997 /* Build configuration list for PBXProject "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26545724FDF719005D5997 /* Debug */,
+				BF26545824FDF719005D5997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26545924FDF719005D5997 /* Build configuration list for PBXNativeTarget "Crypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26545A24FDF719005D5997 /* Debug */,
+				BF26545B24FDF719005D5997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF26543824FDF716005D5997 /* Project object */;
+}
